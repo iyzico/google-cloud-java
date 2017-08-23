@@ -1,22 +1,74 @@
-# Compiled class file
+# git-ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# Some content is used from https://github.com/github/gitignore
+
+# VI generated files
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# IntelliJ Idea generated files
+*.iml
+*.ipr
+*.iws
+.idea
+*plugin.xml
+pom.xml.versionsBackup
+
+# Eclipse generated files
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*~.nib
+.classpath
+.settings/
+.loadpath
+.git/
+build/
+
+# Project generated files
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+*.patch
 *.jar
 *.war
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.ser
+logs/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Compression generated files
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+
+# Maven generated files
+*.releaseBackup
+release.properties
+target/
+
+# OS generated files
+*.pid
+*.swp
+*.tmp
+*.old
+*.backup
+*.diff
+
+# Windows generated files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux generated files
+*~
+.directory
+
+# SVN generated files
+.svn
+log.txt
+.DS_Store
