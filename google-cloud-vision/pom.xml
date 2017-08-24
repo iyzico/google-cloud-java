@@ -4,11 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.iyzipay</groupId>
     <artifactId>google-cloud-vision</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>google-cloud-vision</name>
     <description>Google Cloud Vision Java Client</description>
 
+    <parent>
+        <groupId>com.iyzipay</groupId>
+        <artifactId>google-cloud-java</artifactId>
+        <version>1-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+    </dependencies>
 </project>
