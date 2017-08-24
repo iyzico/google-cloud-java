@@ -9,6 +9,7 @@ public class AnnotateImage {
     private List<EntityAnnotation> logoAnnotations;
     private List<EntityAnnotation> labelAnnotations;
     private List<EntityAnnotation> textAnnotations;
-
+    private TextAnnotation fullTextAnnotation;
+    private SafeSearchAnnotation safeSearchAnnotation;
 
 }
