@@ -18,7 +18,7 @@ options.setApiKey("my api key");
 options.setBaseUrl("https://vision.googleapis.com");
 
 GoogleCloudRequest request = new AnnotateImageBuilder()
-         .withImageUrl("https://img.iyzi.link/iyziLinkImages/C-w.jpg")
+         .withImageUrl("https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png")
          .withSafeSearchDetection()
          .withLabelDetection()
          .withLogoDetection()
