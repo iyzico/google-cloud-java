@@ -8,3 +8,23 @@ Lightweight java client library for Google Cloud API
 # Requirements
 
 Java 1.6 or newer
+
+# Usage
+
+```java
+
+Options options = new Options();
+options.setApiKey("my api key");
+options.setBaseUrl("https://vision.googleapis.com");
+
+GoogleCloudRequest request = new AnnotateImageBuilder()
+         .withImageUrl("https://img.iyzi.link/iyziLinkImages/C-w.jpg")
+         .withSafeSearchDetection()
+         .withLabelDetection()
+         .withLogoDetection()
+         .withWebDetection()
+         .buildRequest();
+
+AnnotateImages annotateImages = AnnotateImages.create(request, options);
+
+```

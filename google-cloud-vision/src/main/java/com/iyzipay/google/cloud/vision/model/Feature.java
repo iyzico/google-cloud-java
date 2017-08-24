@@ -3,7 +3,7 @@ package com.iyzipay.google.cloud.vision.model;
 public class Feature {
 
     private FeatureType type;
-    private Double number;
+    private Double maxResults;
 
     public FeatureType getType() {
         return type;
@@ -13,11 +13,11 @@ public class Feature {
         this.type = type;
     }
 
-    public Double getNumber() {
-        return number;
+    public Double getMaxResults() {
+        return maxResults;
     }
 
-    public void setNumber(Double number) {
-        this.number = number;
+    public void setMaxResults(Double maxResults) {
+        this.maxResults = maxResults;
     }
 }

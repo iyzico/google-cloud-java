@@ -3,7 +3,7 @@ package com.iyzipay.google.cloud.vision.model;
 public class Image {
 
     private String content;
-    private ImageSource imageSource;
+    private ImageSource source;
 
     public String getContent() {
         return content;
@@ -13,11 +13,11 @@ public class Image {
         this.content = content;
     }
 
-    public ImageSource getImageSource() {
-        return imageSource;
+    public ImageSource getSource() {
+        return source;
     }
 
-    public void setImageSource(ImageSource imageSource) {
-        this.imageSource = imageSource;
+    public void setSource(ImageSource source) {
+        this.source = source;
     }
 }

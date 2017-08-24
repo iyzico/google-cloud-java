@@ -1,13 +1,8 @@
 package com.iyzipay.google.cloud.vision.model;
 
-import com.iyzipay.google.cloud.vision.GoogleCloudVisionResource;
-import com.iyzipay.google.cloud.vision.HttpClient;
-import com.iyzipay.google.cloud.vision.Options;
-import com.iyzipay.google.cloud.vision.request.CreateAnnotateImageRequest;
-
 import java.util.List;
 
-public class AnnotateImage extends GoogleCloudVisionResource {
+public class AnnotateImage {
 
     private List<FaceAnnotation> faceAnnotations;
     private List<EntityAnnotation> landmarkAnnotations;
@@ -20,13 +15,7 @@ public class AnnotateImage extends GoogleCloudVisionResource {
     private CropHintsAnnotation cropHintsAnnotation;
     private WebDetection webDetection;
 
-    public static AnnotateImage create(CreateAnnotateImageRequest request, Options options) {
-        return HttpClient.create()
-                .post(options.getBaseUrl() + "/v1/images:annotate?key=" + options.getApiKey(),
-                getHttpHeaders(),
-                request,
-                AnnotateImage.class);
-    }
+
 
     public List<FaceAnnotation> getFaceAnnotations() {
         return faceAnnotations;
