@@ -51,7 +51,7 @@ public class AnnotateImageBuilder {
         return this;
     }
 
-    public AnnotateImageBuilder withImageUrl(String imageUri) {
+    public AnnotateImageBuilder withImageUri(String imageUri) {
         this.imageUri = imageUri;
         return this;
     }

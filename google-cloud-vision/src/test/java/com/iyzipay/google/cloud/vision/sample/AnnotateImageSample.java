@@ -11,7 +11,7 @@ public class AnnotateImageSample extends Sample {
     public void should_annotate_image_uri() {
 
         GoogleCloudRequest request = new AnnotateImageBuilder()
-                .withImageUrl("https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png")
+                .withImageUri("https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png")
                 .withSafeSearchDetection()
                 .withLabelDetection()
                 .withLogoDetection()
