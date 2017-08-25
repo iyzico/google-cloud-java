@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <name>google-cloud-java</name>
     <description>Lightweight Google Cloud Java Client For Easy Integration</description>
+    <url>https://github.com/iyzico/google-cloud-java</url>
 
     <modules>
         <module>google-cloud-vision</module>
