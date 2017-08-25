@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.iyzipay</groupId>
     <artifactId>google-cloud-java</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>1.0.4</version>
     <packaging>pom</packaging>
     <name>google-cloud-java</name>
     <description>Lightweight Google Cloud Java Client For Easy Integration</description>
