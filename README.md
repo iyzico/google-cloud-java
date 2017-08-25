@@ -19,7 +19,7 @@ Add this dependency to your project's POM for example google-cloud-vision:
 <dependency>
   <groupId>com.iyzipay</groupId>
   <artifactId>google-cloud-vision</artifactId>
-  <version>2.0.42</version>
+  <version>1.0.10</version>
 </dependency>
 ```
 
@@ -28,7 +28,7 @@ Add this dependency to your project's POM for example google-cloud-vision:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.iyzipay:google-cloud-vision:2.0.42"
+compile "com.iyzipay:google-cloud-vision:1.0.10"
 ```
 
 ### Others
