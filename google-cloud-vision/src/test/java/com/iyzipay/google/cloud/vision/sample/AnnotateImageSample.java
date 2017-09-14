@@ -20,6 +20,6 @@ public class AnnotateImageSample extends Sample {
 
         AnnotateImages annotateImages = AnnotateImages.create(request, options);
 
-        System.out.println(annotateImages.getError().getMessage());
+        System.err.println(annotateImages.getResponses().get(0).getError().getMessage());
     }
 }

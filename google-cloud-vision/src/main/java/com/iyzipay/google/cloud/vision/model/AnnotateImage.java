@@ -14,8 +14,7 @@ public class AnnotateImage {
     private ImageProperties imagePropertiesAnnotation;
     private CropHintsAnnotation cropHintsAnnotation;
     private WebDetection webDetection;
-
-
+    private Status error;
 
     public List<FaceAnnotation> getFaceAnnotations() {
         return faceAnnotations;
@@ -95,5 +94,13 @@ public class AnnotateImage {
 
     public void setWebDetection(WebDetection webDetection) {
         this.webDetection = webDetection;
+    }
+
+    public Status getError() {
+        return error;
+    }
+
+    public void setError(Status error) {
+        this.error = error;
     }
 }
