@@ -19,7 +19,7 @@ Add this dependency to your project's POM for example google-cloud-vision:
 <dependency>
   <groupId>com.iyzipay</groupId>
   <artifactId>google-cloud-vision</artifactId>
-  <version>1.0.12</version>
+  <version>1.0.15</version>
 </dependency>
 ```
 
@@ -28,7 +28,7 @@ Add this dependency to your project's POM for example google-cloud-vision:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.iyzipay:google-cloud-vision:1.0.12"
+compile "com.iyzipay:google-cloud-vision:1.0.15"
 ```
 
 ### Others
@@ -57,7 +57,7 @@ options.setApiKey("my api key");
 options.setBaseUrl("https://vision.googleapis.com");
 
 GoogleCloudRequest request = new AnnotateImageBuilder()
-         .withImageUri("https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_1.0.124dp.png")
+         .withImageUri("https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_1.0.154dp.png")
          .withSafeSearchDetection()
          .withLabelDetection()
          .withLogoDetection()
