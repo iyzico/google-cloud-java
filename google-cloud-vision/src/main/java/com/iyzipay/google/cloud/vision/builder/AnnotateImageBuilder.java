@@ -51,6 +51,14 @@ public class AnnotateImageBuilder {
         return this;
     }
 
+    public AnnotateImageBuilder withTextDetection() {
+        Feature feature = new Feature();
+        feature.setType(FeatureType.TEXT_DETECTION);
+        this.features.add(feature);
+        return this;
+
+    }
+
     public AnnotateImageBuilder withImageUri(String imageUri) {
         this.imageUri = imageUri;
         return this;
