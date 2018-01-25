@@ -62,6 +62,7 @@ GoogleCloudRequest request = new AnnotateImageBuilder()
          .withLabelDetection()
          .withLogoDetection()
          .withWebDetection()
+         .withTextDetection()
          .buildRequest();
 
 AnnotateImages annotateImages = AnnotateImages.create(request, options);
