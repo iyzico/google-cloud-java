@@ -16,6 +16,7 @@ public class AnnotateImageSample extends Sample {
                 .withLabelDetection()
                 .withLogoDetection()
                 .withWebDetection()
+                .withTextDetection()
                 .buildRequest();
 
         AnnotateImages annotateImages = AnnotateImages.create(request, options);
